@@ -5,4 +5,8 @@ new Vue({
   }
 });
 
-console.log(fetch('https:/localhost:8000/api/v1/posts/1'))
+fetch('http://localhost:8000/api/v1/posts')
+  .then(res => {
+    res.json()
+    console.log(res)
+  })
