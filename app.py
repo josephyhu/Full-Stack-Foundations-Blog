@@ -1,4 +1,4 @@
-from flask import Flask, redirect
+from flask import Flask
 from flask_cors import CORS
 
 import models
@@ -13,8 +13,8 @@ CORS(app, resources={r'/*': {'origins': '*'}})
 
 
 @app.route('/')
-def posts():
-    return redirect('api/v1/posts')
+def hello_world():
+    return 'Hello world'
 
 
 if __name__ == '__main__':
