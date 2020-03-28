@@ -8,4 +8,4 @@ Required modules:
 * flask_restful `pip install flask_restful` or `pip3 install flask_restful` (if you also have python2 installed)
 * peewee `pip install peewee` or `pip3 install peewee` (if you also have python2 installed)
 
-Type `python app.py` or `python3 app.py` (if you also have python2 installed) in the terminal to run.
+Type `python app.py` or `python3 app.py` (if you also have python2 installed) in the terminal to run. Then click the `index.html` file.
