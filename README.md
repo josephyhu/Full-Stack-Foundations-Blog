@@ -12,10 +12,10 @@ Required modules:
 Type `python app.py` or `python3 app.py` (if you also have python2 installed) in the terminal to run. Then click the `index.html` file.
 
 **Home page**
-!(https://i.ibb.co/hc5CR4V/Annotation-2020-03-28-143138.png)
+![Hide posts](https://i.ibb.co/hc5CR4V/Annotation-2020-03-28-143138.png)
 
 **Home page (Show button clicked)**
-!(https://i.ibb.co/HnhmNdv/Annotation-2020-03-28-142431.png)
+![Show posts](https://i.ibb.co/HnhmNdv/Annotation-2020-03-28-142431.png)
 
 **Post page**
 !(https://i.ibb.co/GMXRqRH/Annotation-2020-03-28-143138w.png)
