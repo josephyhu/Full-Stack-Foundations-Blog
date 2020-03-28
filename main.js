@@ -9,7 +9,7 @@ new Vue({
   el: '#posts',
   data: {
       posts: '',
-      seen: false
+      seen: true
   },
   mounted() {
     fetch('http://localhost:8000/api/v1/posts')
