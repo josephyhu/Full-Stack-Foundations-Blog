@@ -16,7 +16,7 @@
     <div id="posts">
       <ul>
         <li v-for="post in posts">
-          <h2><a href="post.html?id={{post.id}}">{{post.title}}</a></h2>
+          <h2><a :href="'post.html?id=' + post.id">{{post.title}}</a></h2>
           <p>{{post.timestamp}}</p>
           <p>{{post.content}}</p>
         </li>
