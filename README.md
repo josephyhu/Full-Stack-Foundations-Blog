@@ -13,11 +13,11 @@ Type `python app.py` or `python3 app.py` (if you also have python2 installed) in
 
 **Home page**
 
-![Hide all posts](https://i.ibb.co/hc5CR4V/Annotation-2020-03-28-143138.png)
-
-**Home page (Show button clicked)**
-
 ![Show all posts](https://i.ibb.co/HnhmNdv/Annotation-2020-03-28-142431.png)
+
+**Home page**
+
+![Hide all posts](https://i.ibb.co/hc5CR4V/Annotation-2020-03-28-143138.png)
 
 **Post page**
 
