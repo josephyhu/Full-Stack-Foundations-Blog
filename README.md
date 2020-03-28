@@ -5,6 +5,7 @@ Requires python3 or higher
 
 Required modules:
 * flask `pip install flask` or `pip3 install flask` (if you also have python2 installed)
+* flask_cors `pip install flask_cors` or `pip3 install flask_cors` (if you also have python2 installed)
 * flask_restful `pip install flask_restful` or `pip3 install flask_restful` (if you also have python2 installed)
 * peewee `pip install peewee` or `pip3 install peewee` (if you also have python2 installed)
 
