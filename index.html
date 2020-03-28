@@ -16,13 +16,13 @@
     <div id="posts">
       <ul>
         <li v-for="post in posts">
-          <h2>{{post.title}}</a></h2>
+          <h2><a href="post.html?id={{post.id}}">{{post.title}}</a></h2>
           <p>{{post.timestamp}}</p>
           <p>{{post.content}}</p>
         </li>
       </ul>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
-    <script src="app.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
