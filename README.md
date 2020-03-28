@@ -1,9 +1,9 @@
 # Full Stack Foundations Blog
 Treehouse Full Stack Foundations Track final project
 
-Requires python3 or higher
+**Requires python3 or higher**
 
-Required modules:
+**Required python packages:**
 * flask `pip install flask` or `pip3 install flask` (if you also have python2 installed)
 * flask_cors `pip install flask_cors` or `pip3 install flask_cors` (if you also have python2 installed)
 * flask_restful `pip install flask_restful` or `pip3 install flask_restful` (if you also have python2 installed)
