@@ -1,3 +1,6 @@
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get('id');
+
 new Vue({
   el: '#post',
   data: {
@@ -6,16 +9,12 @@ new Vue({
     content: ''
   },
   mounted() {
-    fetch('http://localhost:8000/api/v1/posts')
+    fetch(`http://localhost:8000/api/v1/posts/${id}`)
       .then(response => response.json())
       .then(data => {
-        posts = data.posts
-        for (let i = 0; i < posts.length; i += 1) {
-          fetch(`http://localhost:8000/api/v1/posts/${posts[i].id}`)
-            .then(response => response.json())
-            .then(data => this.title = data.title)
-            .then(data => this.timestamp = data.timestamp)
-        }
+        this.title = data.title,
+        this.timestamp = data.timestamp,
+        this.content = data.content
       })
   }
 });
