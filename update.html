@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Full Stack Foundations Blog</title>
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href='index.html'>Home</a>
+      </nav>
+    </header>
+    <div id="post">
+      <form method="post">
+        <label for="title">Title<span style="color:red;">*</span></label><br>
+        <input type="text" v-model="title" required><br><br>
+        <label for="content">Content<span style="color:red;">*</span></label><br>
+        <textarea v-model="content" required></textarea><br><br>
+        <button type="button" onclick="update(title, content)">Update</button>
+      </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/post.js"></script>
+    <script src="js/routes.js"></script>
+  </body>
+</html>
