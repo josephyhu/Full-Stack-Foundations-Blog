@@ -14,8 +14,12 @@
       </header>
       <p>{{timestamp}}</p>
       <p v-html="content">{{content}}</p>
+      <p><a :href="'update.html?id=' + id">Update</a></p>
+      <button type="button" onclick="del()">Delete</button>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="js/post.js"></script>
+    <script src="js/routes.js"></script>
   </body>
 </html>

@@ -8,8 +8,7 @@ new Vue({
 new Vue({
   el: '#posts',
   data: {
-      posts: '',
-      visible: true
+      posts: ''
   },
   mounted() {
     fetch('http://localhost:8000/api/v1/posts')

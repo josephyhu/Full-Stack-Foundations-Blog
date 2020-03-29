@@ -19,3 +19,16 @@ a {
 a:hover {
   opacity: .5;
 }
+
+form {
+text-align: center;
+}
+
+input {
+  width: 600px;
+}
+
+textarea {
+  width: 600px;
+  height: 300px;
+}
