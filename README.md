@@ -13,8 +13,8 @@ Type `python app.py` or `python3 app.py` (if you also have python2 installed) in
 
 **Home page**
 
-![All posts](https://i.ibb.co/1s50mmS/Annotation-2020-03-28-210516.png)
+![All posts](https://i.ibb.co/GJdGPvg/Annotation-2020-03-28-210516.png)
 
 **Post page**
 
-![A single post](https://i.ibb.co/0fNQsVb/Annotation-2020-03-28-210517.png)
+![A single post](https://i.ibb.co/k3V0xcn/Annotation-2020-03-28-210517.png)
