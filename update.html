@@ -7,16 +7,18 @@
   <body>
     <header>
       <nav>
-        <a href='index.html'>Home</a>
+        <a href="index.html">Home</a>
+        <a href="new.html">New Post</a>
       </nav>
+      <h1>Update Post</h1>
     </header>
     <div id="post">
       <form method="post">
         <label for="title">Title<span style="color:red;">*</span></label><br>
-        <input type="text" v-model="title" required><br><br>
+        <input type="text" v-model="title" name="title" id="title" required><br><br>
         <label for="content">Content<span style="color:red;">*</span></label><br>
-        <textarea v-model="content" required></textarea><br><br>
-        <button type="button" onclick="update(title, content)">Update</button>
+        <textarea v-model="content" name="content" id="content" required></textarea><br><br>
+        <button type="button" onclick="update()">Submit</button>
       </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
